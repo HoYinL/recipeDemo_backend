@@ -9,7 +9,7 @@ import MarkedPostList from '../../../models/markedpostlist.js';
 import BlockedPostList from '../../../models/blockedpostlist.js';
 import FollowerList from '../../../models/followerlist.js';
 import FollowingUserList from '../../../models/followinguserlist.js';
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import jwt_decode from "jwt-decode";
 import config from '../../../config/index.js';
 

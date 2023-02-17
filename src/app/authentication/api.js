@@ -4,7 +4,7 @@ import passportJwt, { ExtractJwt } from "passport-jwt"
 import passportLocal from "passport-local"
 import User from "../models/users.js";
 import jwt from "jsonwebtoken";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import * as dotenv from "dotenv";
 import config from "../config/index.js";
 
