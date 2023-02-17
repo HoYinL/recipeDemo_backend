@@ -65,7 +65,7 @@ try{
 
     console.log(`connected to ${db} successfully`);
 
-    app.listen(1000, () => console.log('http server is running at port 3000.'));
+    app.listen((NODE_ENV_PORT || 5000), () => console.log('http server is running at port 3000.'));
 } catch (err) {
     console.error.bind(console, `MongoDB connection error: ${err}`)
 }
